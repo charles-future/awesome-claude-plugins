@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [xquik](./xquik) - Work with X data from Claude Code through Xquik's REST API, webhooks, and MCP server for search, monitoring, exports, and automation.
 
 ### Frontend & Design
 
