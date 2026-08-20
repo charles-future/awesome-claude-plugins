@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Hermes Agent and Claude-compatible plugin for X/Twitter search, tweet reading, and explicit action-gated posting.
 
 ### Frontend & Design
 
