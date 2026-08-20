@@ -10,7 +10,7 @@
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome" />
   </a>
-  <a href="https://makeapullrequest.com">
+  <a href="#contributing">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
   </a>
   <a href="https://opensource.org/licenses/MIT">
@@ -64,7 +64,7 @@ Paste your API key when asked. (Get a free key at [platform.composio.dev](https:
 
 Ask Claude to send you a test email. If you receive it, Claude is now connected to 500+ apps.
 
-**[See all supported apps →](https://composio.dev/tools)**
+**[See all supported apps →](https://platform.composio.dev/apps)**
 
 ---
 
@@ -94,6 +94,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Integrations
 
 - [connect-apps](./connect-apps) - Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 500+ services.
+- [xquik](./xquik) - Work with X data from Claude Code through Xquik's REST API, webhooks, and MCP server for search, monitoring, exports, and automation.
 
 ### Frontend & Design
 
@@ -129,8 +130,8 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 
 - [perf](./perf) - Performance analysis and optimization. Identify bottlenecks and improve speed.
 - [audit-project](./audit-project) - Full project audit for code quality, dependencies, security, and best practices.
-- [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) - Automated AWS cost optimization with 173 checks across EC2, RDS, S3, Lambda, and more. ML-powered recommendations and real pricing from AWS API.
-- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Includes Claude Code [skill](https://github.com/mnfst/manifest/blob/main/skills/manifest/SKILL.md) for guided setup. Self-hosted, OTLP ingestion, 28+ LLM models. ([Website](https://manifest.build))
+- [aws-cost-saver](https://github.com/prajapatimehul/claude-aws-cost-saver) - Automated AWS cost optimization with 163 checks across EC2, RDS, S3, Lambda, and 30+ services. Includes read-only scanning safeguards and current pricing validation.
+- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for AI agents. Track tokens, costs, messages, and model usage with setup flows for Claude Code and other agents. Self-hosted, OTLP ingestion, and 28+ LLM models. ([Website](https://manifest.build))
 
 ### Documentation & Security
 
@@ -140,12 +141,12 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Developer Productivity
 
 - [developer-growth-analysis](./developer-growth-analysis) - Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and curates personalized learning resources.
-- [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation — declaratively, without modification. Zero dependencies.
+- [skill-bus](./skill-bus) - The skill for connecting skills. Wire context, conditions, and other skills into any skill invocation - declaratively, without modification. Zero dependencies.
 - [context-mode](https://github.com/mksglu/claude-context-mode) - Process large outputs in sandboxed subprocesses, keeping only summaries in the context window. 98% context savings across 21 benchmarked scenarios.
 
 ### Image Generation
 
-- [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+- [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition - all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
 
 ## Getting Started
 
