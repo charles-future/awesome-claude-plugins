@@ -80,6 +80,8 @@ Ask Claude to send you a test email. If you receive it, Claude is now connected 
   - [DevOps & Performance](#devops--performance)
   - [Documentation & Security](#documentation--security)
   - [Developer Productivity](#developer-productivity)
+  - [Image Generation](#image-generation)
+  - [Marketing & SEO](#marketing--seo)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -146,6 +148,10 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 ### Image Generation
 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition — all from a single `/genimage` command. Powered by `gemini-2.5-flash-image` and `gemini-3-pro-image-preview`.
+
+### Marketing & SEO
+
+- [NotFair](https://github.com/nowork-studio/NotFair) - Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads. Covers [site analysis & keyword research](https://github.com/nowork-studio/NotFair/tree/main/seo), [Google Ads audits & bid management](https://github.com/nowork-studio/NotFair/tree/main/google-ads), and [Meta Ads ROAS & creative fatigue](https://github.com/nowork-studio/NotFair/tree/main/meta-ads). Connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. MIT license.
 
 ## Getting Started
 
